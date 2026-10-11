@@ -26,3 +26,5 @@ traces/final2-*
 traces/final3-*
 examples/agent_builder.py
 .claude/skills/build-phone-agent/
+builder/
+.claude/skills/freya-builder/

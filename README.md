@@ -19,7 +19,7 @@ It uses the Claude login of the machine running it (Claude Agent SDK), and `FREY
 | 5. Test and fix | code + Claude "fixer" | Simulates every customer `--reps` times (a customer passes only if all pass). The fixer repairs failures, preferring code and routing over prompts. The best-scoring version is kept. |
 | 6. Export | code | `submission/<slot>.workflow.json` and a plain-text trace in `traces/`. |
 
-Helpers: `lint.py` (platform pitfalls Freya drops silently), `ops.py` (save, publish, chat, export), `harness.py` (personas, simulation, compact transcripts). `builder/` is the first version used for the early runs.
+Helpers: `lint.py` (platform pitfalls Freya drops silently), `ops.py` (save, publish, chat, export), `harness.py` (personas, simulation, compact transcripts).
 
 Nothing case-specific is in the code or the skill. The bank's rules, phrases, tools and language come from the brief at run time.
 
@@ -34,8 +34,8 @@ A Cloudflare Worker that serves the bank's seven statement-debt services from th
 ## Layout
 
 ```
-builder_v2/   the builder (current)         builder/   first version
-.claude/skills/freya-builder*/   Freya platform patterns for the builder
-mock/         Cloudflare Worker             docs/      Freya platform docs, plan, kit readme
+builder_v2/   the builder
+.claude/skills/freya-builder-v2/  Freya platform patterns for the builder
+mock/         Cloudflare Worker  docs/  Freya platform docs, plan, kit readme
 briefs/ tools/ public-test-set.json freya.py examples/base-agent.json   event kit files
 ```
