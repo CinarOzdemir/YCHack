@@ -1,0 +1,20 @@
+env.sh
+.freya-agents.json
+.personas.json
+__pycache__/
+node_modules/
+mock/.wrangler/
+mock-dev.log
+work/*/corpus/
+results/
+Build the Builder - Final Case/
+work/*.out
+work/*/round*.json
+work/*/workflow.round*.json
+work/test-ingest/
+out/
+*.pyc
+submission/
+traces/
+work/
+
