@@ -16,3 +16,13 @@ out/
 *.pyc
 work/
 
+submission/final.workflow.json
+submission/final2.workflow.json
+submission/final3.workflow.json
+submission/run1/
+submission/run3-partial/
+traces/final-2026*
+traces/final2-*
+traces/final3-*
+examples/agent_builder.py
+.claude/skills/build-phone-agent/
