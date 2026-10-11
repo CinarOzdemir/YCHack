@@ -1,0 +1,19 @@
+{
+  "team": "CacheBros",
+  "members": [
+    {
+      "name": "Berkin Özcan",
+      "email": "berkinozcan123@gmail.com"
+    },
+    {
+      "name": "Çınar Özdemir",
+      "email": "cinaro@ug.bilkent.edu.tr"
+    }
+  ],
+  "repo": "https://github.com/CinarOzdemir/YCHack",
+  "commit": "ffae79366fe151646d0cf3f2accb17ce258ab3df",
+  "run_command": "python builder_v2/build.py \"{case_folder}\" --slot final4 --api-base https://freya-statement-mock.berkin-freya.workers.dev --budget-min 29 --reps 2",
+  "workflow": "submission/final4.workflow.json",
+  "trace": "traces/final4-20261011-221129.log",
+  "mock_url": "https://freya-statement-mock.berkin-freya.workers.dev"
+}
